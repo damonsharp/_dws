@@ -1,0 +1,21 @@
+// Global
+#page {
+    @include container();
+    @include breakpoint($break-md) {
+        @include container(85%);
+    }
+}
+
+#primary {
+    @include span(12);
+    @include breakpoint($break-md){
+        @include span(8);
+    }
+}
+
+#secondary {
+    @include span(12);
+    @include breakpoint(768px){
+        @include span(last 4);
+    }
+}
