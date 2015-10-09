@@ -1,0 +1,93 @@
+/*!
+    Theme Name: DWS Starter Theme (dws_s)
+    Theme URI: https://github.com/damonsharp/dws_s
+    Author: Damon Sharp
+    Author URI: http://damonsharp.me
+    Description: Starter theme built using underscores (http://underscores.me), customized to use Susy, scss, etc.
+    Version: 1.0
+    License: GNU General Public License v2 or later
+    License URI: http://www.gnu.org/licenses/gpl-2.0.html
+    Tags: susy, starter, gulp
+    Text Domain: dws_s
+
+    This theme, like WordPress, is licensed under the GPL.
+    Use it to make something cool, have fun, and share what you've learned with others.
+*/
+/* line 2, source/sass/components/_global.scss */
+#page {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 12, source/sass/susy/sass/susy/output/support/_clearfix.scss */
+#page:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+@media (min-width: 769px) {
+  /* line 2, source/sass/components/_global.scss */
+  #page {
+    max-width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 12, source/sass/susy/sass/susy/output/support/_clearfix.scss */
+  #page:after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+}
+
+/* line 9, source/sass/components/_global.scss */
+#primary {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  float: left;
+  padding-left: 0.83333%;
+  padding-right: 0.83333%;
+}
+
+@media (min-width: 769px) {
+  /* line 9, source/sass/components/_global.scss */
+  #primary {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 66.66667%;
+    float: left;
+    padding-left: 0.83333%;
+    padding-right: 0.83333%;
+  }
+}
+
+/* line 16, source/sass/components/_global.scss */
+#secondary {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  float: left;
+  padding-left: 0.83333%;
+  padding-right: 0.83333%;
+}
+
+@media (min-width: 768px) {
+  /* line 16, source/sass/components/_global.scss */
+  #secondary {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 33.33333%;
+    float: right;
+    padding-left: 0.83333%;
+    padding-right: 0.83333%;
+  }
+}
+
+/*# sourceMappingURL=assets/sourcemaps/style.css.map */
